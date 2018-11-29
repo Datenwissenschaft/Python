@@ -1,0 +1,11 @@
+#Die print()-Funktion
+#1. Ausgabe von Zeichenketten (string), Zahlen (integer oder float) oder Boolscher Operator (boolean)
+print("Hallo Welt")
+print(42)
+print(3.14159265359)
+print(True)
+#2. Ausgabe von Variablen
+#Variable x definieren
+x = 4711
+#Ausgabe der Variable x
+print(x)
