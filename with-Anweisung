@@ -1,0 +1,9 @@
+#with
+#Die with-Anweisung stellt sicher, dass ein Dateiobjekt nach dem Öffnen und Bearbeiten automatisch korrekt deinitialisiert wird.
+
+#Beispiel:
+#Öffnen und lesen einer Datei
+#Die with-Anweisung schließt die Datei nach dem Lesen automatisch.
+#Der Programmierer muss nicht an das Schließen der Datei denken, bspw. mit f.close(). 
+with open('dateiname.txt','r') as f:
+    print(f.read())
